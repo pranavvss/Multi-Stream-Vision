@@ -54,14 +54,14 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 
 ---------------------------------------------------------------------------
 
-3. Hardware Requirements:
+### 3. Hardware Requirements:
 - GPU: NVIDIA GeForce RTX, with CUDA support for optimal performance.
 - CPU: A powerful processor to handle non-GPU accelerated tasks and manage multi-threading efficiently.
 - Memory: A minimum of 16GB of RAM is recommended to handle the intensive memory requirements of the model and video processing.
 
 ---------------------------------------------------------------------------
 
-4. Prerequisites:
+### 4. Prerequisites:
 
 - Intermediate Python Programming,
 - Basic Knowledge of Machine Learning(neural networks, models like YOLO, and experience with deep learning frameworks such as PyTorch),
