@@ -12,6 +12,7 @@ This project involves developing an advanced real-time detection system capable 
 ### Project Requirements
 
 1. Programming Language: Python (Somewhere between 3.11 to 3.12) [Download Python](https://www.python.org/downloads/)
+   
 2. Libraries and Frameworks i have used:
 - OpenCV: Used for video capture, image processing, and Haar Cascade for face detection. [Download](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 
