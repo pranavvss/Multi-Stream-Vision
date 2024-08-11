@@ -37,4 +37,4 @@ This project involves developing an advanced real-time detection system capable 
   
 - CUDA and cuDNN: Libraries that enable GPU acceleration for deep learning tasks, improving the performance and responsiveness of the system.
 
-  If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and install CUDA that is perfect fit for you GPU, and Make sure to research and install cuDNN that is a perfect fit for your CUDA version.
+  If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and install CUDA that is perfect fit for your GPU, and Make sure to research and install cuDNN that is a perfect fit for your CUDA version.
