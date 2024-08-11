@@ -12,7 +12,8 @@ This project involves developing an advanced real-time detection system capable 
 ### Project Requirements
 
 1. Programming Language: Python (Somewhere between 3.11 to 3.12) [Download Python](https://www.python.org/downloads/)
-   
+
+
 2. Libraries and Frameworks i have used:
 - OpenCV: Used for video capture, image processing, and Haar Cascade for face detection. [Download](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 
@@ -23,7 +24,7 @@ This project involves developing an advanced real-time detection system capable 
   [Git clone/Download yolo5](https://github.com/ultralytics/yolov5), Note: Make sure Yolo5 is in the same directory where you will be saving the Pyhton script.
   
 - MediaPipe: Utilized for real-time hand detection and tracking.  [Download](https://ai.google.dev/edge/mediapipe/solutions/guide)
-- 
+
 - GStreamer: An advanced pipeline-based multimedia framework used to ensure high-quality video input and output.
   [Download](https://gstreamer.freedesktop.org/download/#windows), Note: Download both Runtime installer and Development installer, Let the program download the files in default directory.
   
