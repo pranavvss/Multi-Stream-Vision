@@ -59,3 +59,12 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 - CPU: A powerful processor to handle non-GPU accelerated tasks and manage multi-threading efficiently.
 - Memory: A minimum of 16GB of RAM is recommended to handle the intensive memory requirements of the model and video processing.
 
+---------------------------------------------------------------------------
+
+4. Prerequisites:
+
+- Intermediate Python Programming,
+- Basic Knowledge of Machine Learning(neural networks, models like YOLO, and experience with deep learning frameworks such as PyTorch),
+- Must know Computer Vision: Experience with OpenCV, image processing, and video capture techniques.
+- Understanding of GPU Acceleration: Basic knowledge of how to use GPU resources for deep learning tasks using CUDA and cuDNN.
+
