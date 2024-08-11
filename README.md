@@ -32,7 +32,7 @@ Used for video capture, image processing, and Haar Cascade for face detection. [
   
 2.3 YOLOv5
 A state-of-the-art object detection model, known for its speed and accuracy. Not suggested to use any other version of Yolo. The YOLOv5 model can be easily integrated using PyTorch’s torch.hub.load() method [torch.hub Documentation](https://pytorch.org/docs/stable/hub.html). YOLOv5 is known for its balance of accuracy and speed, making it suitable for real-time applications. Ensure the model weights are properly downloaded and stored in the correct directory.
-[All About Yolo5](https://docs.ultralytics.com/yolov5/)
+[All About Yolo5](https://docs.ultralytics.com/yolov5/) and 
 [Git clone/Download yolo5](https://github.com/ultralytics/yolov5). Make sure Yolo5 is in the same directory where you will be saving the Pyhton script.
   
 2.4 MediaPipe
