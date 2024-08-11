@@ -30,9 +30,11 @@ This project involves developing an advanced real-time detection system capable 
 - MediaPipe: Utilized for real-time hand detection and tracking.  [Download](https://ai.google.dev/edge/mediapipe/solutions/guide)
 
 - GStreamer: An advanced pipeline-based multimedia framework used to ensure high-quality video input and output.
-- 
-  [Download](https://gstreamer.freedesktop.org/download/#windows), Note: Download both Runtime installer and Development installer, Let the program download the files in default directory.
+
+  [Download](https://gstreamer.freedesktop.org/download/#windows),
+
+  Note: Download both Runtime installer and Development installer, Let the program download the files in default directory.
   
 - CUDA and cuDNN: Libraries that enable GPU acceleration for deep learning tasks, improving the performance and responsiveness of the system.
-- 
+
   If you Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and install CUDA that is perfect fit for you GPU, and Make sure to research and install cuDNN that is a perfect fit for your CUDA version.
