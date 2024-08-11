@@ -72,7 +72,7 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 
 Note:
 Make Sure you Directory Structure look like this- 
-i just use the integrated terminal for your directory and clone yolo5 repo there it self. Just to cross check make sure the yolo5 folder has (hubconf.py) , and inside yolo5 there will be a segment folder and inside that make sure you have (__init__.py).
+just use the integrated terminal for your directory and clone yolo5 repo there it self. Just to cross check make sure the yolo5 folder has (hubconf.py) , and inside yolo5 there will be a segment folder and inside that make sure you have (__init__.py).
 
 ![image](https://github.com/user-attachments/assets/789fd95c-0d39-4198-ad29-d16bdeadad36)
 
