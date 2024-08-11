@@ -68,3 +68,8 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 - Must know Computer Vision: Experience with OpenCV, image processing, and video capture techniques.
 - Understanding of GPU Acceleration: Basic knowledge of how to use GPU resources for deep learning tasks using CUDA and cuDNN.
 
+---------------------------------------------------------------------------
+
+
+![image](https://github.com/user-attachments/assets/91fefa36-4e05-4e80-86fc-954682eda2c4)
+
