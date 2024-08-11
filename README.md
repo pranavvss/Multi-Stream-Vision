@@ -86,8 +86,9 @@ import torch
 import cv2
 import numpy as np
 import mediapipe as mp
+import concurrent.futures
 ```
-or
+to install these libraries run this command in terminal
 ```
 pip install torch opencv-python-headless numpy mediapipe
 ```
