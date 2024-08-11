@@ -38,3 +38,11 @@ This project involves developing an advanced real-time detection system capable 
 - CUDA and cuDNN: Libraries that enable GPU acceleration for deep learning tasks, improving the performance and responsiveness of the system.
 
   If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and install CUDA that is perfect fit for your GPU, and Make sure to research and install cuDNN that is a perfect fit for your CUDA version.
+
+3. Hardware Requirements:
+GPU: NVIDIA GeForce RTX, with CUDA support for optimal performance.
+
+CPU: A powerful processor to handle non-GPU accelerated tasks and manage multi-threading efficiently.
+
+Memory: A minimum of 16GB of RAM is recommended to handle the intensive memory requirements of the model and video processing.
+
