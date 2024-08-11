@@ -19,7 +19,8 @@ This project involves developing an advanced real-time detection system capable 
 
 - Torch (PyTorch): A deep learning framework used to load and run the YOLOv5 model. [Download](https://pytorch.org/docs/stable/index.html)
 
-- YOLOv5: A state-of-the-art object detection model, renowned for its speed and accuracy.
+- YOLOv5: A state-of-the-art object detection model, known for its speed and accuracy.
+  Not suggested to use any other version of Yolo.
   [All About Yolo5](https://docs.ultralytics.com/yolov5/)
   [Git clone/Download yolo5](https://github.com/ultralytics/yolov5), Note: Make sure Yolo5 is in the same directory where you will be saving the Pyhton script.
   
