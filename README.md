@@ -8,6 +8,11 @@
 https://github.com/user-attachments/assets/1d4c14ac-b2b7-43b4-8250-7fa2d30a7297
 
 ---------------------------------------------------------------------------
+![gitupload](https://github.com/user-attachments/assets/bbd25df3-3505-4f9c-8ec1-f62805b04730)
+
+### Note : Some objects may not get detected as I am using a pre trained dataset, But if you want to enter custom data for your project your can following my [previous project] in that project i have show how you can enter your own data 
+
+---------------------------------------------------------------------------
 
 ## Project Info- 
 
