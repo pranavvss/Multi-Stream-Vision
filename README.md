@@ -15,7 +15,7 @@ https://github.com/user-attachments/assets/1d4c14ac-b2b7-43b4-8250-7fa2d30a7297
 
 ### Note :
 
-Some objects may not get detected as I am using a pre trained dataset, But if you want to enter custom data for your project you can learn it by following my [previous project](https://github.com/pranavvss/Hand-Face-detection-model-using-python) where i have show how you can enter your own data and implement them in a program.
+Some objects may not get detected as I am using a pre trained dataset, But if you want to enter custom data for your project you can learn it by following my [previous project](https://github.com/pranavvss/Hand-Face-detection-model-using-python) where i have shown how you can enter your own data and implement them in a program.
 
 ---------------------------------------------------------------------------
 
