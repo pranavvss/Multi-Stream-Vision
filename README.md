@@ -107,7 +107,7 @@ Quick Explanation- torch is use for loading the YOLOv5 model, which is used for 
 ---------------------------------------------------------------------------
 
 Step 2. Loading the YOLOv5 Model
-```
+```python
 model = torch.hub.load('D:/ObjectAndHandRecognition/ObjDectection/yolov5', 'custom', path='yolov5x.pt', source='local')
 ```
 Explanation- YOLO (You Only Look Once) is a popular object detection model. We are loading a custom-trained YOLOv5 model from a local path. (torch.hub.load) This function allows us to load the YOLOv5 model using Torch's Hub. The model is loaded from the specified directory and is ready for inference.
@@ -125,7 +125,7 @@ nvidia-smi #in CMD
 ---------------------------------------------------------------------------
 
 Step 3. MediaPipe Initialization
-```
+```python
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands()
@@ -135,7 +135,7 @@ Explanation- MediaPipe is initialized for hand detection. (mp_hands) handles the
 ---------------------------------------------------------------------------
 
 Step 4. Loading the Haar Cascade for Face Detection
-```
+```python
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 ```
 Explanation- I am using a pre-trained Haar Cascade model provided by OpenCV for detecting faces. The (haarcascade_frontalface_default.xml) file is a model that can detect frontal faces in an image.
@@ -144,7 +144,7 @@ Explanation- I am using a pre-trained Haar Cascade model provided by OpenCV for 
 
 Step 5. Opening the Webcam
 Note: If you have a webcam its good, but I used Droid cam as a webcam, If you don't know, Droid cam helps you to use cam service with using your phones camera as a web cam, You just have to download droid cam in both your device(phone and laptop) and just connect them through same wifi. [Droid Cam Download Link](https://www.dev47apps.com/)
-```
+```python
 print("Opening webcam...")
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)  # Use DirectShow
 if not cap.isOpened():
@@ -160,7 +160,7 @@ Notes: Ensure that your webcam is connected and working. DirectShow (cv2.CAP_DSH
 ---------------------------------------------------------------------------
 
 Step 6. Displaying the Video Feed
-```
+```python
 cv2.namedWindow("Hand, Face, and Object Detection - Pranav v2", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Hand, Face, and Object Detection - Pranav v2", 640, 480)
 ```
@@ -170,7 +170,7 @@ Explanation- (cv2.namedWindow) Creates a pop up window and c(v2.resizeWindow) Se
 
 Step 7. Main Loop for Video Processing
 
-```
+```python
 def main_loop():
     global frame_count
     while True:
