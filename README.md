@@ -91,7 +91,7 @@ just use the integrated terminal for your directory and clone yolo5 repo there i
 # LETS DIG IN
 ---------------------------------------------------------------------------
 Step 1. Import libraries (Do read the documents i mentioned above if you are not familiar with these libraries).
-``` 
+```python
 import torch
 import cv2
 import numpy as np
@@ -99,7 +99,7 @@ import mediapipe as mp
 import concurrent.futures
 ```
 to install these libraries run this command in terminal
-```
+```python
 pip install torch opencv-python-headless numpy mediapipe
 ```
 Quick Explanation- torch is use for loading the YOLOv5 model, which is used for our object detection. The torch library is part of PyTorch, a popular machine learning library. cv2 is a part of the OpenCV library, which is required for video capturing, image processing, and displaying the video feed. Numpy is a fundamental package for scientific computing in Python. It is used here for image and video data manipulation. Mediapipe is a library that was developed by Google for machine learning solutions like face and hand detection.
