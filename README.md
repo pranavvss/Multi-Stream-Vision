@@ -1,7 +1,7 @@
 > [!NOTE]
 >NO HARDWARE REQUIRED, MUST BE INTERMEDIATE PYTHON PROGRAMMER
 
-An advanced real-time detection system capable of recognizing multiple objects, hands, and faces within a video stream. (Could be also done on a Pre-recorded video)
+An advanced real-time detection system capable of recognizing multiple objects, hands, and faces within a video stream made using OpenCV, Mediapipe, coded in Python language. (Could be also done on a Pre-recorded video)
 
 ---------------------------------------------------------------------------
 
