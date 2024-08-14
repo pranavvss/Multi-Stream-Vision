@@ -1,38 +1,36 @@
-# Multi Stream Vision-Real Time Object Detection 
-
-(NO HARDWARE REQUIRED), (NOT FOR ABSOLUTE BEGINNERS)
+> [!NOTE]
+>NO HARDWARE REQUIRED, MUST BE INTERMEDIATE PYTHON PROGRAMMER
 
 An advanced real-time detection system capable of recognizing multiple objects, hands, and faces within a video stream. (Could be also done on a Pre-recorded video)
 
 ---------------------------------------------------------------------------
 
-## Video Example-
+**Video Example-**
 
 https://github.com/user-attachments/assets/1d4c14ac-b2b7-43b4-8250-7fa2d30a7297
 
 ---------------------------------------------------------------------------
 ![gitupload](https://github.com/user-attachments/assets/bbd25df3-3505-4f9c-8ec1-f62805b04730)
 
-### Note :
-
-Some objects may not get detected as I am using a pre trained dataset, But if you want to enter custom data for your project you can learn it by following my [previous project](https://github.com/pranavvss/Hand-Face-detection-model-using-python) where i have shown how you can enter your own data and implement them in a program.
+> [!NOTE] 
+> Some objects may not get detected as I am using a pre trained dataset, But if you want to enter custom data for your project you can learn it by following my [previous project](https://github.com/pranavvss/Hand-Face-detection-model-using-python) where i have shown how you can enter your own data and implement them in a program.
 
 ---------------------------------------------------------------------------
 
-## Project Info- 
+**Project Info- **
 
 This project involves developing an advanced real-time detection system capable of recognizing multiple objects, hands, and faces within a video stream. Leveraging the YOLOv5 model for object detection, MediaPipe for hand tracking, and OpenCV Haar Cascade for face detection, the system efficiently processes video feed from a webcam. This project demonstrates the integration of powerful computer vision tools and techniques to create a versatile and responsive detection system. The project also uses CUDA and cuDNN for GPU acceleration, ensuring the system operates with minimal lag, providing a smoother and faster user experience.
 
 ---------------------------------------------------------------------------
 
-## Project Requirements
+**Project Requirements**
 
-### 1. Programming Language: 
+**1. Programming Language: **
 Python (Somewhere between 3.11 to 3.12) [Download Python](https://www.python.org/downloads/)
 
 ---------------------------------------------------------------------------
 
-### 2. Libraries and Frameworks i have used:
+**2. Libraries and Frameworks i have used:**
    
 2.1 OpenCV
 Used for video capture, image processing, and Haar Cascade for face detection. [Download](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
@@ -64,14 +62,15 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 
 ---------------------------------------------------------------------------
 
-### 3. Hardware Requirements:
+**3. Hardware Requirements:**
+
 - GPU: NVIDIA GeForce RTX, with CUDA support for optimal performance.
 - CPU: A powerful processor to handle non-GPU accelerated tasks and manage multi-threading efficiently.
 - Memory: A minimum of 16GB of RAM is recommended to handle the intensive memory requirements of the model and video processing.
 
 ---------------------------------------------------------------------------
 
-### 4. Prerequisites:
+**4. Prerequisites:**
 
 - Intermediate Python Programming,
 - Basic Knowledge of Machine Learning(neural networks, models like YOLO, and experience with deep learning frameworks such as PyTorch),
@@ -80,9 +79,9 @@ If your Gpu supports CUDA CuDNN (/Nvidia Gpu does) Make sure to research and ins
 
 ---------------------------------------------------------------------------
 
-Note:
-Make Sure your Directory Structure look like this- 
-just use the integrated terminal for your directory and clone yolo5 repo there it self. Just to cross check make sure the yolo5 folder has (hubconf.py) , and inside yolo5 there will be a segment folder and inside that make sure you have (__init__.py).
+> [!NOTE] 
+>Make Sure your Directory Structure look like this- 
+>just use the integrated terminal for your directory and clone yolo5 repo there it self. Just to cross check make sure the yolo5 folder has (hubconf.py) , and inside yolo5 there will be a segment folder and inside that make sure you have (__init__.py).
 
 ![image](https://github.com/user-attachments/assets/789fd95c-0d39-4198-ad29-d16bdeadad36)
 
@@ -225,8 +224,6 @@ cv2.imshow Displays the video with all the detections.
 cv2.waitKey(1) Allows the user to exit the loop by pressing the 'q' key change the key according to your liking.
 cap.release() and cv2.destroyAllWindows() Ensures that the video capture is released and all windows are closed when the program exits.
 
----------------------------------------------------------------------------
-                             WE ARE DONE
----------------------------------------------------------------------------
-    CONSIDER FOLLOWING MY GITHUB PROFILE FOR MORE AWSOME PROJECTS
----------------------------------------------------------------------------
+> [!NOTE]
+> If you are intrested to learn more about Object detection projects follow my other documents-
+> Hand and Fcae detection model using openCV, it is easy for beginners to understand [Read Document](https://github.com/pranavvss/Hand-Face-detection-model-using-python)
